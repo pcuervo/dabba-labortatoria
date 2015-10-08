@@ -3005,7 +3005,7 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
 }
-.btn-br1{                                         /*Agregados mover*/
+.btn-br1{                                         /*Agregados*/
   border-radius: 12px!important;
 }
 .btn-br2{
@@ -3022,6 +3022,12 @@ select[multiple].input-lg {
 }
 .btn-i-br{
   border-color: white!important;
+}
+.pd-2{
+  padding: 2%;
+}
+.pd-1{
+  padding: 1%;
 }
 
 
