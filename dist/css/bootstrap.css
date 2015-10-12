@@ -6790,4 +6790,31 @@ button.close {
     display: none !important;
   }
 }
+/*AGREGADOS*/
+.text-gray{
+  color:gray;
+}
+#arrow{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 30px 2px 2px;
+    border: none;
+    background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat right center;
+}
+.bg-pink{
+  background-color: #F65275;
+}
+input.white{
+  background-color:transparent!important;
+  color:white!important;
+}
+input.w-text::-webkit-input-placeholder {
+  color: #fff!important;
+}
+textarea.form-control {
+  height: auto;
+  border: 1px solid #F65275;
+  resize:none;
+}
 /*# sourceMappingURL=bootstrap.css.map */
