@@ -1329,6 +1329,47 @@ mark,
 .text-primary {
   color: #337ab7;
 }
+
+/* text dabba */
+
+div[name=text] span{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 3%;
+  width: 30%;
+  margin: 1%;
+}
+
+span.bg-pink{
+  color: #fff;
+}
+
+.link{
+  padding: 5%;
+}
+
+.link a{
+  color: #fff;
+  margin:2% 5%;
+  text-decoration:1px;
+}
+
+li+hr{
+  border: solid 1px #EA5463;
+}
+
+p.text-img{
+    color: #fff;;
+    display: block;
+}
+
+
+div[name=home-img]{
+
+}
+
+/* text dabba */
+
 a.text-primary:hover,
 a.text-primary:focus {
   color: #286090;

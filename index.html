@@ -1,9 +1,10 @@
-f<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
  <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
  </head>
  <body>
  	<header>
@@ -179,43 +180,97 @@ f<!DOCTYPE html>
 	   			</div>	
 	   		</div>
 	   		<div class="row">
-	   			<div class="col-xs-12">
-	   				<h3>Tipografía</h3>
-	   				<div>
-	   					<h4>Paragraph</h4>
-	   					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae culpa, maiores architecto nobis dicta earum similique. Quod fuga pariatur in, quas exercitationem sapiente adipisci, velit at ipsam sed iure facere.</p>
-<!-- insertar parrafos -->
-						<h4>Header</h4>
-						<h1>Header 1</h1>
-						<h2>Header 2</h2>
-						<h3>Header 3</h3>
-						<h4>Header 4</h4>
-						<h5>Header 5</h5>
-						<h6>Header 6</h6>
-<!-- insertar encabezados aquì-->
-						<h4>Links</h4>
-						<a href="">link</a>
-						<a href="">link</a>
-						<a href="">link</a>
-						<h4>Note Image</h4>
-						<h4>Label</h4>
+	   			<div name="text" class="col-xs-12">
+	   				<h3>Tipografia</h3>
+	   				<h4>Paragraph</h4>
+		   				<div class="row">
+		   					<span class="bg-pink col-xs-12">
+		   						<h3>Aling Left</h3>
+		   						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consequatur enim quam natus facere vel exercitationem rerum odio perferendis modi adipisci mollitia velit delectus ipsam, maiores. Voluptatem officia porro, nemo.</p>
+		   					</span>
+		   					<span class="bg-pink text-center col-xs-12">
+		   						<h3>Aling Center</h3>
+		   						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptatum minus ipsum, dicta animi, numquam culpa, fuga odit delectus quo maxime tenetur ducimus recusandae ad voluptatibus dolor. Ullam, possimus, laudantium!</p>
+		   					</span>
+		   					<span class="bg-pink text-right col-xs-12">
+		   						<h3>Aling Right</h3>
+		   						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos possimus, ipsam qui distinctio impedit ullam inventore architecto natus nisi officiis temporibus aperiam quaerat accusantium fugiat et minus, iusto incidunt. Rem.</p>
+		   					</span>
+		   					<span class="info col-xs-12">
+		   						<h3>Aling Left</h3>
+		   						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse architecto, quod quaerat facilis soluta voluptates non? Doloremque rem, quisquam, assumenda doloribus nemo obcaecati odit aperiam dolorum facilis mollitia et minima.</p>
+		   					</span>
+		   					<span class="info text-center col-xs-12">
+		   						<h3>Aling Center</h3>
+		   						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolore officiis autem! Architecto aperiam nisi tempora autem, modi, qui eum! Maiores alias dolorem, veniam consectetur autem quis laudantium illum possimus.</p>
+		   					</span>
+		   					<span class="info text-right col-xs-12">
+		   						<h3>Aling Right</h3>
+		   						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptates iusto, saepe aliquid optio odit eos et voluptatibus nesciunt illo. Sit aspernatur, omnis odit debitis necessitatibus in, magni odio at.</p>
+		   					</span>
+		   				</div>
+		   			<h4>Headers</h4>
+		   				<div class="row col-lg-offset-2 col-md-offset-2">
+		   					<div class="container-fluid text-center">
+		   						<ol class="pager col-lg-6">
+		   							<li>
+			   							<span class="pull-left">h1</span>
+			   							<h1>Header 1</h1>
+			   						</li>
+			   						<hr>
+			   						<li>
+			   							<span class="pull-left">h2</span>
+			   							<h2>Header 2</h2>
+			   						</li>
+			   						<hr>
+			   						<li>
+			   							<span class="pull-left">h3</span>
+			   							<h3>Header 3</h3>
+			   						</li>
+			   						<hr>
+			   						<li>
+			   							<span class="pull-left">h4</span>
+			   							<h4>Header 4</h4>
+			   						</li>
+			   						<hr>
+			   						<li>
+			   							<span class="pull-left">h5</span>
+			   							<h5>Header 5</h5>
+			   						</li>
+			   						<hr>
+			   						<li>
+			   							<span class="pull-left">h6</span>
+			   							<h6>Header 6</h6>
+			   						</li>
+			   						<hr>
+		   						</ol>
+		   					</div>
+		   				</div>
+		   			<h4>Links</h4>
+	   				<div class="link navbar-inverse text-center">
+	   					<a href="">Nosotros</a>
+	   					<a href="">Contáctanos</a>
+	   					<a href="">Términos y condiciones</a>
+	   					<a href="">Aviso de privacidad</a>
 	   				</div>
+		   			<h4>Images</h4>
+		   			<div name="">
+		   				<img class="col-xs-12 col-md-6 col-lg-6" src="img/home-intro.jpg" alt="">
+		   				<p class="bg-pink text-img">tag image</p>
+		   			</div>
+		   			<div name="">
+		   				<img class="col-xs-12 col-md-6 col-lg-6" src="img/home-intro.jpg" alt="">
+		   				<p class="bg-pink text-img">descrption</p>
+		   			</div>
+						
+					
+					<div name="home-img">
+						<img class="col-xs-12 col-md-8 col-lg-8" src="img/home-intro.jpg" alt="">
+					</div>					
 	   			</div>
 	   		</div>
-	   		<div class="row">
+			<div class="row">
 	   			<div class="col-xs-12">
-	   				<h3>Menu</h3>
-
-	   			</div>
-	   		</div>
-	   		<div class="row">
-	   			<div class="col-xs-12">
-	   				<h3>Lines</h3>
-	   				<hr>
-
-	   			</div>
-	   		</div>
-
 	   				<h3>Iconos</h3>
 	   				<div class="row text-center pd-2">
 						<div class="col-xs-2"><img src="img/email.png"></div>
