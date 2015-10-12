@@ -6845,6 +6845,17 @@ button.close {
 }
 .bg-pink{
   background-color: #F65275;
-
+}
+input.white{
+  background-color:transparent!important;
+  color:white!important;
+}
+input.w-text::-webkit-input-placeholder {
+  color: #fff!important;
+}
+textarea.form-control {
+  height: auto;
+  border: 1px solid #F65275;
+  resize:none;
 }
 /*# sourceMappingURL=bootstrap.css.map */
