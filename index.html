@@ -4,7 +4,6 @@ f<!DOCTYPE html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
-
  </head>
  <body>
  	<header>
@@ -140,29 +139,83 @@ f<!DOCTYPE html>
 	   		<div class="row">
 	   			<div class="col-xs-12">
 	   				<h3>Input</h3>
-	   				<div>
-	   					<h4>Textarea</h4>
-<!-- insertar input textarea aquì-->
-	   					<h4>Select</h4>
-<!-- insertar input select aquì-->
-	   					<h4>Placeholder</h4>
-<!-- insertar input placeholder aquì-->
-	   				</div>
 	   			</div>
+	   			<div class="col-lg-4 col-xs-12">
+	   				<h4>Textarea</h4>
+	   				<div class="form-group">
+					  <label for="comment">Comments</label>
+					  <textarea class="form-control" rows="3" placeholder="¿Algo más que nos quieras decir?" id="comment"></textarea>
+					</div>
+					<div class="form-group">
+					    <label for="pwd">Pay form</label>
+					    <input type="password" class="form-control" placeholder="****************789" id="pwd">
+					</div>
+	   			</div>
+	   			<div class="col-lg-4 col-xs-12 text-center">
+	   				<h4>Select</h4>
+			        <select>
+				        <option value="1">1</option>
+				        <option value="2">2</option>
+				        <option value="3">3</option>
+				        <option value="4">4</option>
+			        </select>
+			        <div>
+						<select id="arrow">
+						    <option>1</option>
+						    <option>2</option>
+						    <option>3</option>
+						    <option>4</option>
+						</select>
+					</div>
+	   			</div>		
+	   			<div class="col-lg-4 col-xs-12">
+	   				<h4>Placeholder</h4>
+   					<input class="form-control" rows="3" placeholder="Text" id="comment"></input>
+					<div class="bg-pink">
+						<div class="form-group">
+						    <input type="email" class="form-control w-text white" placeholder="Text" id="email">
+						</div>
+					</div>
+	   			</div>	
 	   		</div>
 	   		<div class="row">
 	   			<div class="col-xs-12">
-	   				<h3>Tipografìa</h3>
+	   				<h3>Tipografía</h3>
 	   				<div>
 	   					<h4>Paragraph</h4>
+	   					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae culpa, maiores architecto nobis dicta earum similique. Quod fuga pariatur in, quas exercitationem sapiente adipisci, velit at ipsam sed iure facere.</p>
 <!-- insertar parrafos -->
 						<h4>Header</h4>
-<!-- insertar encabezados aquì-->						
+						<h1>Header 1</h1>
+						<h2>Header 2</h2>
+						<h3>Header 3</h3>
+						<h4>Header 4</h4>
+						<h5>Header 5</h5>
+						<h6>Header 6</h6>
+<!-- insertar encabezados aquì-->
+						<h4>Links</h4>
+						<a href="">link</a>
+						<a href="">link</a>
+						<a href="">link</a>
+						<h4>Note Image</h4>
+						<h4>Label</h4>
 	   				</div>
 	   			</div>
 	   		</div>
 	   		<div class="row">
 	   			<div class="col-xs-12">
+	   				<h3>Menu</h3>
+
+	   			</div>
+	   		</div>
+	   		<div class="row">
+	   			<div class="col-xs-12">
+	   				<h3>Lines</h3>
+	   				<hr>
+
+	   			</div>
+	   		</div>
+
 	   				<h3>Iconos</h3>
 	   				<div class="row text-center pd-2">
 						<div class="col-xs-2"><img src="img/email.png"></div>
