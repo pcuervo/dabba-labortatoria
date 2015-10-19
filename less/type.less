@@ -44,9 +44,12 @@ h6, .h6 {
   }
 }
 
-h1, .h1 { font-size: @font-size-h1; }
-h2, .h2 { font-size: @font-size-h2; }
-h3, .h3 { font-size: @font-size-h3; }
+h1, .h1 { font-size: @font-size-h1;
+}
+h2, .h2 { font-size: @font-size-h2; 
+}
+h3, .h3 { font-size: @font-size-h3; 
+}
 h4, .h4 { font-size: @font-size-h4; }
 h5, .h5 { font-size: @font-size-h5; }
 h6, .h6 { font-size: @font-size-h6; }
@@ -59,6 +62,16 @@ p {
   margin: 0 0 (@line-height-computed / 2);
 }
 
+.paragraph-content{
+    font-family: @font-family-sans-serif;
+    font-weight: 300;
+}
+
+.heading{
+    font-family: @font-family-sans-serif;
+    font-weight: 400;
+}
+
 .lead {
   margin-bottom: @line-height-computed;
   font-size: floor((@font-size-base * 1.15));
@@ -69,6 +82,8 @@ p {
     font-size: (@font-size-base * 1.5);
   }
 }
+
+
 
 
 // Emphasis & misc
