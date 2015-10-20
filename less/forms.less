@@ -4,20 +4,26 @@
 
 
 .bg-color__screen input{
-  color: @white;
-  background-color: @pink;
-  border-bottom: 1px solid @white;  
+  color: @light;
+  background-color: @primary;
+  border-bottom: 1px solid @light;  
   margin-bottom: 20px;
-  border-top: @pink;
-  border-left: @pink;
-  border-right: @pink;
+  border-top: @primary;
+  border-left: @primary;
+  border-right: @primary;
   box-shadow: none;
   border-radius: 0px;
 }
-
-// Normalize non-controls
-//
-// Restyle and baseline non-control form elements.
+.bg-color__screen .form-control {
+  color: @light;
+  background-color: @primary;
+  border-bottom: 1px solid @light;
+  border-top: @primary;
+  border-right: @primary;
+  border-left: @primary;
+  box-shadow: none;
+  border-radius: 0px;
+}
 
 fieldset {
   padding: 0;
@@ -142,7 +148,7 @@ output {
   .form-control-focus();
 
   // Placeholder
-  .placeholder(@white);
+  .placeholder(@light);
 
   // Disabled and read-only inputs
   //
