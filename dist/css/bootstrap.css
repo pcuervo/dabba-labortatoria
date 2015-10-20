@@ -2513,6 +2513,10 @@ table th[class*="col-"] {
   border-right: #f05475;
   box-shadow: none;
   border-radius: 0px;
+  padding: 0px;
+}
+.bg-color__screen select {
+  padding: 0px;
 }
 .bg-color__screen .form-control {
   color: #ffffff;
@@ -3033,13 +3037,15 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 }
-.close {
+.bg-color__screen .close-modal {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 30px;
+  background-color: #f05475;
+  border: none;
+  font-weight: lighter;
 }
 .bg-color__screen .btn {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 20px;
 }
 .btn {
   display: inline-block;
@@ -5874,6 +5880,10 @@ button.list-group-item-danger.active:focus {
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
 }
+.bg-color__screen .embed-responsive {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .embed-responsive {
   position: relative;
   display: block;
@@ -5955,6 +5965,10 @@ button.close {
 }
 .img-header-logo {
   width: 50%;
+}
+.modal .bg-color__screen {
+  width: 100vw;
+  height: inherit;
 }
 .modal-open {
   overflow: hidden;
