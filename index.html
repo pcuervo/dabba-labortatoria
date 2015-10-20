@@ -118,13 +118,14 @@
 			<form role="form">
 			  	<div class="form-group">
 					<input type="correo electrónico" class="col-xs-6 form-control" id="ejemplo_nombre_1" placeholder="Correo electrónico">
-					<input type="colonia" class="col-xs-6 form-control" id="ejemplo_apellido_1" placeholder="Colonia">
-					<select>
-				        <option value="1">Colonia</option>
-				        <option value="2">2</option>
-				        <option value="3">3</option>
-				        <option value="4">4</option>
-			        </select>
+					<select class="form-control"><div class="glyphicon glyphicon-chevron-down"></div>
+						<option>Colonia </option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
 				</div>
 			</form>
 			<div class="[ text-center ]">
@@ -147,32 +148,71 @@
 			</div>
 		</div>		
 	</section>
+
 	<footer>
+		<section>
+			Button to trigger modal
+			<a href="#contactanos" role="button" class="btn btn-custom" data-toggle="modal">
+				<button type="button" class="btn btn-info navbar-btn">Login</button>
+			</a>
+			        
+			<!-- Modal-->
+			<div id="contactanos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title text-center">SING IN</h4>
+						</div>
+						<div class="modal-body">
+							<section  class="[ bg-color__screen ]">
+								<div class="[ container ]">
+									<h2>Lo sentimos :(</h2>
+									<p>Por ahora no entregamos en tu área, entregamos en</p>
+								</div>
+								<div class="embed-responsive">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3762.462624634608!2d-99.2077281!3d19.435611!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1445293875693" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</div>	
+								<div class="[ container ]">			
+									<p>Cuando entreguémos en tu colonia recibirás un correo electrónico con un cupón para una comida gratis.</p>
+									<div class="[ text-center ]">
+										<button type="button" class="[ btn ][ btn-danger ]">ok</button>
+									</div>
+								</div>		
+							</section>
+						</div><!-- End of Modal body-->
+					</div><!-- End of Modal content-->
+				</div><!-- End of Modal dialog-->
+			</div><!-- End of Modal-->
+		</section>
+	<!-- <section>
+			Button to trigger modal
+			<a href="#contactanos" role="button" class="btn btn-custom" data-toggle="modal">
+				<button type="button" class="btn btn-info navbar-btn">Login</button>
+			</a>
+			        
+			<!-- Modal
+			<div id="contactanos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title text-center">SING IN</h4>
+						</div>
+						<div class="modal-body">
 
-<!-- Trigger the modal with a button
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-
-<!-- Modal 
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-	<!-- Modal content
-	<div class="modal-content">
-	  <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal">&times;</button>
-		<h4 class="modal-title">Modal Header</h4>
-	  </div>
-	  <div class="modal-body">
-		<p>Some text in the modal.</p>
-	  </div>
-	  <div class="modal-footer">
-		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	  </div>
-	</div>
-
-  </div>
-</div>-->
-
+						</div><!-- End of Modal body
+					</div><!-- End of Modal content
+				</div><!-- End of Modal dialog
+			</div><!-- End of Modal
+		</section>-->
 	</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<script> $('#send_btn').popover({content: 'Thank You'},'click'); </script>
+
  </body>
 </html>

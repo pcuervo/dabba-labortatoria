@@ -2496,11 +2496,21 @@ table th[class*="col-"] {
 .bg-color__screen input {
   color: #ffffff;
   background-color: #f05475;
-  border-bottom: 1px solid #673695;
+  border-bottom: 1px solid #ffffff;
   margin-bottom: 20px;
   border-top: #f05475;
   border-left: #f05475;
   border-right: #f05475;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.bg-color__screen .form-control {
+  color: #ffffff;
+  background-color: #f05475;
+  border-bottom: 1px solid #ffffff;
+  border-top: #f05475;
+  border-right: #f05475;
+  border-left: #f05475;
   box-shadow: none;
   border-radius: 0px;
 }
