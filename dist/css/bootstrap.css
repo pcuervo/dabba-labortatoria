@@ -1290,6 +1290,7 @@ p {
 .paragraph-content {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  font-size: 2em;
 }
 .heading {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -5932,9 +5933,12 @@ button.close {
   background-image: url('../../img/assets/home-intro.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: cover;
   width: 100%;
   height: 300px;
+}
+.img-header-logo {
+  width: 50%;
 }
 .modal-open {
   overflow: hidden;
@@ -6529,7 +6533,7 @@ button.close {
   }
 }
 .bg-gradient {
-  background: linear-gradient(#f05475, #661f94);
+  background: linear-gradient(#f05475, #673695);
 }
 .bg-color__screen {
   background-color: #f05475;
