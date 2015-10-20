@@ -1290,6 +1290,7 @@ p {
 .paragraph-content {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  font-size: 2em;
 }
 .heading {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2494,12 +2495,12 @@ table th[class*="col-"] {
 }
 .bg-color__screen input {
   color: #ffffff;
-  background-color: #f65275;
-  border-bottom: 1px solid #ffffff;
+  background-color: #f05475;
+  border-bottom: 1px solid #673695;
   margin-bottom: 20px;
-  border-top: #f65275;
-  border-left: #f65275;
-  border-right: #f65275;
+  border-top: #f05475;
+  border-left: #f05475;
+  border-right: #f05475;
   box-shadow: none;
   border-radius: 0px;
 }
@@ -3201,25 +3202,25 @@ fieldset[disabled] .btn-primary.active {
   background-color: #ffffff;
 }
 .btn-success {
-  color: #f65275;
+  color: #f05475;
   background-color: #ffffff;
   border-color: #f2f2f2;
 }
 .btn-success:focus,
 .btn-success.focus {
-  color: #f65275;
+  color: #f05475;
   background-color: #e6e6e6;
   border-color: #b3b3b3;
 }
 .btn-success:hover {
-  color: #f65275;
+  color: #f05475;
   background-color: #e6e6e6;
   border-color: #d4d4d4;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
-  color: #f65275;
+  color: #f05475;
   background-color: #e6e6e6;
   border-color: #d4d4d4;
 }
@@ -3232,7 +3233,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active.focus,
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
-  color: #f65275;
+  color: #f05475;
   background-color: #d4d4d4;
   border-color: #b3b3b3;
 }
@@ -3264,7 +3265,7 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-success .badge {
   color: #ffffff;
-  background-color: #f65275;
+  background-color: #f05475;
 }
 .btn-info {
   color: #ffffff;
@@ -5922,9 +5923,12 @@ button.close {
   background-image: url('../../img/assets/home-intro.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: cover;
   width: 100%;
   height: 300px;
+}
+.img-header-logo {
+  width: 50%;
 }
 .modal-open {
   overflow: hidden;
@@ -6519,10 +6523,10 @@ button.close {
   }
 }
 .bg-gradient {
-  background: linear-gradient(#f65275, #661f94);
+  background: linear-gradient(#f05475, #673695);
 }
 .bg-color__screen {
-  background-color: #f65275;
+  background-color: #f05475;
 }
 .clearfix:before,
 .clearfix:after,
