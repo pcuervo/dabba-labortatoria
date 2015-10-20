@@ -1168,6 +1168,8 @@ p {
 .bg-color__screen h2 {
   color: #ffffff;
   text-align: center;
+  padding: 5px;
+  margin-top: 85px;
 }
 h1,
 h2,
@@ -3022,6 +3024,14 @@ select[multiple].input-lg {
     padding-top: 6px;
     font-size: 12px;
   }
+}
+.close {
+  color: #ffffff;
+  font-size: 20px;
+}
+.bg-color__screen .btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .btn {
   display: inline-block;
