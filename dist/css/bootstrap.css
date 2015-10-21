@@ -5989,6 +5989,9 @@ button.close {
     width: 20%;
   }
 }
+.img-icon {
+  width: 15vw;
+}
 .modal .bg-color__screen {
   width: 100vw;
   height: inherit;
