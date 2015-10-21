@@ -1165,7 +1165,7 @@ p {
   color: #eeeeee;
   text-align: center;
 }
-.bg-color__screen h2 {
+.bg-primary h2 {
   color: #ffffff;
   text-align: center;
   padding: 5px;
@@ -3505,7 +3505,7 @@ fieldset[disabled] .btn-danger.active {
   color: #f05475;
   border-color: #f05475;
   background: none;
-  margin: 15% 0;
+  margin: 15px 0;
 }
 .btn-light-hollow {
   color: #ffffff;
@@ -6584,7 +6584,7 @@ button.close {
 .bg-gradient {
   background: linear-gradient(#f05475, #673695);
 }
-.bg-color__screen {
+.bg-primary {
   background-color: #f05475;
 }
 .clearfix:before,
