@@ -6671,6 +6671,10 @@ button.close {
 .bg-light {
   background-color: #ffffff;
 }
+.bg-tertiary {
+  background-color: #0d1016;
+  color: #ffffff;
+}
 .color-light {
   color: #ffffff;
 }
@@ -6683,9 +6687,8 @@ button.close {
 .padding {
   padding: 6px 12px;
 }
-.bg-tertiary {
-  background-color: #0d1016;
-  color: #ffffff;
+.padding--large {
+  padding: 10px 16px;
 }
 @-ms-viewport {
   width: device-width;
