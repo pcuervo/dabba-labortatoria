@@ -1398,14 +1398,6 @@ a.text-danger:focus {
   height: 100%;
   padding: 15%;
 }
-.bg-primary {
-  color: #fff;
-  background-color: #337ab7;
-}
-a.bg-primary:hover,
-a.bg-primary:focus {
-  background-color: #286090;
-}
 .bg-success {
   background-color: #dff0d8;
 }
@@ -1433,6 +1425,10 @@ a.bg-warning:focus {
 a.bg-danger:hover,
 a.bg-danger:focus {
   background-color: #e4b9b9;
+}
+.bg-primary {
+  background-color: #f05475;
+  color: #ffffff;
 }
 .page-header {
   padding-bottom: 9px;
@@ -6677,6 +6673,9 @@ button.close {
 }
 .affix {
   position: fixed;
+}
+.image {
+  width: 100px;
 }
 @-ms-viewport {
   width: device-width;
