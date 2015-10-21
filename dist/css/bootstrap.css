@@ -2513,7 +2513,7 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
-.bg-color__screen input {
+.bg-primary input {
   color: #ffffff;
   background-color: #f05475;
   border-bottom: 1px solid #ffffff;
@@ -2525,10 +2525,10 @@ table th[class*="col-"] {
   border-radius: 0px;
   padding: 0px;
 }
-.bg-color__screen select {
+.bg-primary select {
   padding: 0px;
 }
-.bg-color__screen .form-control {
+.bg-primary .form-control {
   color: #ffffff;
   background-color: #f05475;
   border-bottom: 1px solid #ffffff;
@@ -3047,9 +3047,6 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 }
-.bg-prymary .btn {
-  margin: 20px;
-}
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -3502,18 +3499,6 @@ fieldset[disabled] .btn-danger.active {
   color: #f65275;
   background-color: #ffffff;
 }
-.btn-primary-hollow {
-  color: #f05475;
-  border-color: #f05475;
-  background: none;
-  margin: 15% 0;
-}
-.btn-light-hollow {
-  color: #ffffff;
-  border-color: #ffffff;
-  background: none;
-  margin: 10px;
-}
 .btn-link {
   color: #337ab7;
   font-weight: normal;
@@ -3579,6 +3564,11 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
+}
+.bg-primary .btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #f05475;
 }
 .fade {
   opacity: 0;
@@ -6582,12 +6572,6 @@ button.close {
     bottom: 20px;
   }
 }
-.bg-gradient {
-  background: linear-gradient(#f05475, #673695);
-}
-.bg-primary {
-  background-color: #f05475;
-}
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
@@ -6670,6 +6654,21 @@ button.close {
 }
 .affix {
   position: fixed;
+}
+.bg-gradient {
+  background: linear-gradient(#f05475, #673695);
+}
+.bg-primary {
+  background-color: #f05475;
+}
+.bg-light {
+  background-color: #ffffff;
+}
+.color-light {
+  color: #ffffff;
+}
+.color-primary {
+  color: #f05475;
 }
 @-ms-viewport {
   width: device-width;

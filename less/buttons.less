@@ -5,9 +5,6 @@
 
 // Base styles
 // --------------------------------------------------
-.bg-prymary .btn{
-  margin:@margin-base;
-}
 
 .btn {
   display: inline-block;
@@ -89,22 +86,6 @@
   .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
 }
 
-.btn-primary-hollow{
-  color: @primary;
-  border-color: @primary;
-  background:none;
-  margin: 15% 0;
-}
-
-.btn-light-hollow{
-  color: @light;
-  border-color: @light;
-  background:none;
-  margin: @margin-small;
-}
-
-
-
 
 // Link buttons
 // -------------------------
@@ -182,4 +163,11 @@ input[type="button"] {
   &.btn-block {
     width: 100%;
   }
+}
+
+
+.bg-primary .btn{
+  margin-top:@margin-base; 
+  margin-bottom: @margin-small;
+  background-color: @primary;
 }
