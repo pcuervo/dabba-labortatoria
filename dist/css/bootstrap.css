@@ -1168,6 +1168,8 @@ p {
 .bg-color__screen h2 {
   color: #ffffff;
   text-align: center;
+  padding: 5px;
+  margin-top: 85px;
 }
 h1,
 h2,
@@ -2521,6 +2523,10 @@ table th[class*="col-"] {
   border-right: #f05475;
   box-shadow: none;
   border-radius: 0px;
+  padding: 0px;
+}
+.bg-color__screen select {
+  padding: 0px;
 }
 .bg-color__screen .form-control {
   color: #ffffff;
@@ -3041,6 +3047,16 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 }
+.bg-color__screen .close-modal {
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #f05475;
+  border: none;
+  font-weight: lighter;
+}
+.bg-color__screen .btn {
+  margin: 20px;
+}
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -3498,6 +3514,12 @@ fieldset[disabled] .btn-danger.active {
   border-color: #f05475;
   background: none;
   margin: 15% 0;
+}
+.btn-light-hollow {
+  color: #ffffff;
+  border-color: #ffffff;
+  background: none;
+  margin: 10px;
 }
 .btn-link {
   color: #337ab7;
@@ -5880,6 +5902,10 @@ button.list-group-item-danger.active:focus {
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
 }
+.bg-color__screen .embed-responsive {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .embed-responsive {
   position: relative;
   display: block;
@@ -5966,6 +5992,10 @@ button.close {
   .img-header-logo {
     width: 20%;
   }
+}
+.modal .bg-color__screen {
+  width: 100vw;
+  height: inherit;
 }
 .modal-open {
   overflow: hidden;
