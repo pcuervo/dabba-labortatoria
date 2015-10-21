@@ -6674,9 +6674,6 @@ button.close {
 .affix {
   position: fixed;
 }
-.image {
-  width: 100px;
-}
 @-ms-viewport {
   width: device-width;
 }
