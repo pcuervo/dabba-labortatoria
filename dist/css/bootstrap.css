@@ -1546,6 +1546,9 @@ address {
   font-style: normal;
   line-height: 1.42857143;
 }
+.underlined {
+  text-decoration: underline;
+}
 code,
 kbd,
 pre,
@@ -6681,8 +6684,14 @@ button.close {
 .color-quaternary {
   color: #e24b44;
 }
+.color-gray {
+  color: #555555;
+}
 .padding {
   padding: 6px 12px;
+}
+.padding--large {
+  padding: 10px 16px;
 }
 .margin-small {
   margin: 10px;
