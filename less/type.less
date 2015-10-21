@@ -11,7 +11,7 @@ p{
   text-align: center;
 }
 
-.bg-color__screen h2{
+.bg-primary h2{
   color: @light;
   text-align: center;
   padding: @padding-xs-horizontal;
@@ -87,7 +87,7 @@ p {
 
 .heading{
     font-family: @font-family-sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .lead {
@@ -172,12 +172,7 @@ mark,
 // Contextual backgrounds
 // For now we'll leave these alongside the text classes until v4 when we can
 // safely shift things around (per SemVer rules).
-.bg-primary {
-  // Given the contrast here, this is the only class to have its color inverted
-  // automatically.
-  color: #fff;
-  .bg-variant(@brand-primary);
-}
+
 .bg-success {
   .bg-variant(@state-success-bg);
 }
