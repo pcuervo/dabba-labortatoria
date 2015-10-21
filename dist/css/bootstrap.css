@@ -1426,10 +1426,6 @@ a.bg-danger:hover,
 a.bg-danger:focus {
   background-color: #e4b9b9;
 }
-.bg-primary {
-  background-color: #f05475;
-  color: #ffffff;
-}
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
@@ -6676,6 +6672,10 @@ button.close {
 }
 .padding {
   padding: 6px 12px;
+}
+.bg-tertiary {
+  background-color: #0d1016;
+  color: #ffffff;
 }
 @-ms-viewport {
   width: device-width;
