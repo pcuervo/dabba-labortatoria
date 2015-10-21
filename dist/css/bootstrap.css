@@ -3047,14 +3047,7 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 }
-.bg-color__screen .close-modal {
-  color: #ffffff;
-  font-size: 30px;
-  background-color: #f05475;
-  border: none;
-  font-weight: lighter;
-}
-.bg-color__screen .btn {
+.bg-prymary .btn {
   margin: 20px;
 }
 .btn {
@@ -5956,17 +5949,17 @@ button.list-group-item-danger.active:focus {
 }
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 29.9992px;
   font-weight: bold;
   line-height: 1;
-  color: #000000;
+  color: #ffffff;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
 .close:hover,
 .close:focus {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
   opacity: 0.5;
@@ -5993,9 +5986,9 @@ button.close {
     width: 20%;
   }
 }
-.modal .bg-color__screen {
+.modal {
   width: 100vw;
-  height: inherit;
+  height: 100vh;
 }
 .modal-open {
   overflow: hidden;
@@ -6592,7 +6585,7 @@ button.close {
 .bg-gradient {
   background: linear-gradient(#f05475, #673695);
 }
-.bg-color__screen {
+.bg-primary {
   background-color: #f05475;
 }
 .clearfix:before,
