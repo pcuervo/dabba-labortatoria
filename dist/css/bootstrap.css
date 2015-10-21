@@ -1290,7 +1290,11 @@ p {
 .paragraph-content {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1em;
+  color: #777777;
+}
+.pd-paragraph-content {
+  padding: 0 10% 10%;
 }
 .heading {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1306,6 +1310,9 @@ p {
   .lead {
     font-size: 21px;
   }
+}
+.icon-details {
+  font-size: 5em;
 }
 small,
 .small {
@@ -1378,13 +1385,16 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #843534;
 }
+.text-primary-light {
+  color: #ffffff;
+}
 .text-punchline {
   font-size: 3em;
   font-weight: 300;
   color: #ffffff;
   width: 100%;
   height: 100%;
-  padding: 25%;
+  padding: 15%;
 }
 .bg-primary {
   color: #fff;
@@ -3482,6 +3492,12 @@ fieldset[disabled] .btn-danger.active {
 .btn-danger .badge {
   color: #f65275;
   background-color: #ffffff;
+}
+.btn-primary-hollow {
+  color: #f05475;
+  border-color: #f05475;
+  background: none;
+  margin: 15% 0;
 }
 .btn-link {
   color: #337ab7;
@@ -5945,6 +5961,11 @@ button.close {
 }
 .img-header-logo {
   width: 50%;
+}
+@media (min-width: 992px) {
+  .img-header-logo {
+    width: 20%;
+  }
 }
 .modal-open {
   overflow: hidden;

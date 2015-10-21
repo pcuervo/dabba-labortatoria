@@ -74,7 +74,12 @@ p {
 .paragraph-content{
     font-family: @font-family-sans-serif;
     font-weight: 300;
-    font-size: 2em
+    font-size: 1em;
+    color: @gray-light;
+}
+
+.pd-paragraph-content{
+  padding: 0 10% 10%;
 }
 
 .heading{
@@ -93,7 +98,10 @@ p {
   }
 }
 
-
+//... glyphicon- //
+.icon-details{
+  font-size: 5em
+}
 
 
 // Emphasis & misc
@@ -130,6 +138,7 @@ mark,
 .text-primary {
   .text-emphasis-variant(@brand-primary);
 }
+
 .text-success {
   .text-emphasis-variant(@state-success-text);
 }
@@ -143,13 +152,17 @@ mark,
   .text-emphasis-variant(@state-danger-text);
 }
 
+.text-primary-light{
+  color: @light
+}
+
 .text-punchline {
   font-size: 3em;
   font-weight: 300;
   color: @light;
   width: 100%;
   height: 100%;
-  padding: 25%;
+  padding: 15%;
   
 }
 
