@@ -59,6 +59,7 @@
 // -------------------------
 
 .bg-gradient{ background:linear-gradient( @primary, @secondary ); }
+.bg-gradient-diagonal{ background:linear-gradient( -45% @secondary, @primary ); }
 .bg-primary{ background-color: @primary; }
 .bg-light{ background-color: @light; }
 .bg-tertiary{
@@ -81,4 +82,16 @@
 // -------------------------
 
 .margin-small{ margin: @margin-small; }
+.margin-large{ margin: @margin-large; }
+.margin-bottom-large{ margin-bottom: @margin-large; }
+.margin-top-bottom-large{margin:@margin-large 0 @margin-large 0; }
 
+//dividers
+.divider-primary {
+  border-color: @primary;
+  width: 150px;
+}
+//sold out
+.disabled{
+  opacity: .5;
+}
