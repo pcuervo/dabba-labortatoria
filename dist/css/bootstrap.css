@@ -1387,6 +1387,9 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #843534;
 }
+.text-gray-light {
+  color: #777777;
+}
 .text-primary-light {
   color: #ffffff;
 }
@@ -6667,6 +6670,9 @@ button.close {
 }
 .bg-gradient {
   background: linear-gradient(#f05475, #673695);
+}
+.bg-gradient-diagonal {
+  background: linear-gradient(-45% #673695, #f05475);
 }
 .bg-primary {
   background-color: #f05475;
