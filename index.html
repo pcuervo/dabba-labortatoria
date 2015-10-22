@@ -76,149 +76,154 @@
 		</div>	
 		</section>
 	<footer>
-			<!-- Button to trigger modal--> 	<!-- ELIMINAR BOTONES!!  -->
-			<a href="#contacto" role="button" class="btn btn-custom" data-toggle="modal">
-				<button type="button" class="btn btn-info navbar-btn">contacto</button>
-			</a>
+		<!-- Button to trigger modal--> 	<!-- ELIMINAR BOTONES!!  -->
+		<a href="#contacto" role="button" class="btn btn-custom" data-toggle="modal">
+			<button type="button" class="btn btn-info navbar-btn">contacto</button>
+		</a>
 
-			<a href="#excelente" role="button" class="btn btn-custom" data-toggle="modal">
-				<button type="button" class="btn btn-info navbar-btn">excelente</button>
+		<a href="#excelente" role="button" class="btn btn-custom" data-toggle="modal">
+			<button type="button" class="btn btn-info navbar-btn">excelente</button>
 
-			</a>
+		</a>
 
-			<a href="#comida-gratis" role="button" class="btn btn-custom" data-toggle="modal">
-				<button type="button" class="btn btn-info navbar-btn">comida gratis</button>
-			</a>
+		<a href="#comida-gratis" role="button" class="btn btn-custom" data-toggle="modal">
+			<button type="button" class="btn btn-info navbar-btn">comida gratis</button>
+		</a>
 
-			<a href="#comienza" role="button" class="btn btn-custom" data-toggle="modal">
-				<button type="button" class="btn btn-info navbar-btn">comienza</button>
-			</a>
+		<a href="#comienza" role="button" class="btn btn-custom" data-toggle="modal">
+			<button type="button" class="btn btn-info navbar-btn">comienza</button>
+		</a>
 
-			<a href="#error" role="button" class="btn btn-custom" data-toggle="modal">
-				<button type="button" class="btn btn-info navbar-btn">error</button>
-			</a>
+		<a href="#error" role="button" class="btn btn-custom" data-toggle="modal">
+			<button type="button" class="btn btn-info navbar-btn">error</button>
+		</a>
 
 		<!-- Modal "contacto"-->
-		<div id="contacto" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-			<section class="[ bg-color__screen ]">
-				<div class="[ container ]">
-					<h2>Contáctanos</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae vero iure laborum placeat non alias distinctio enim, qui rem quod optio voluptas officiis eius quidem reprehenderit explicabo. Et, quasi, ipsa.</p>
-					<p>Lorem ipsum dolor sit amet <u>hola@dabba.mx</u> consectetur adipisicing elit <u>(55)5555-5555.</u></p>
-					<div class="[ text-center ]">
-						<button type="button" class="[ btn ][ btn-light-hollow ]">mándanos un correo</button>
-					</div>	
-					<div class="text-right">
-						<button type="button" class="close-modal" data-dismiss="modal" aria-hidden="true">X</button>	
-					</div>					
-				</div>		
-			</section>
+		<div id="contacto" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >			
+			<div class="[ modal-header ][ bg-light ]">
+				<img src="img/assets/logo.svg" class="[ color-primary ]" alt="Dabba">
+			</div>
+			<div class="[ modal-body ]">
+				<h2>Contáctanos</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae vero iure laborum placeat non alias distinctio enim, qui rem quod optio voluptas officiis eius quidem reprehenderit explicabo. Et, quasi, ipsa.</p>
+				<p>Lorem ipsum dolor sit amet <a href="mailto:hola@dabba.mx">hola@dabba.mx</a> consectetur adipisicing elit <a href="tel:5555555555">(55)5555-5555</a>.</p>
+				<div class="[ text-center ]">
+					<a href="mailto:hola@dabba.mx" class="[ btn btn-light-hollow ]">mándanos un correo</a>
+				</div>	
+				<div class="text-right">
+					<button class="[ close ]" data-dismiss="modal" aria-hidden="true">x</button>	
+				</div>					
+			</div>	
 		</div><!-- End of Modal -->
 
 		<!-- Modal "excelente"-->
-		<div id="excelente" class="[ modal ][ fade ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-			<section  class="[ bg-color__screen ]">
-				<div class="[ container ]">
-					<h2>¡Excelente! :)</h2>
-					<p>Sí entregamos en tu zona, danos tus datos para continuar con el registro.</p>
-					<div class="[ text-center ]">
-						<button class="[ btn ][ btn-info ]">Facebook</button>
-						<button class="[ btn ][ btn-success ]">Google</button>
-					</div>				
-					<p>O con tu correo</p>
-					<form role="form">
-					  	<div class="[ form-group ]">
-					  		<div class="[ col-xs-6 ]">
-					  			<input class="form-control" id="ejemplo_nombre_1" placeholder="Nombre">
-					  		</div>
-							<div class="[ col-xs-6">
-								<input class="[ form-control ]" id="ejemplo_apellido_1" placeholder="Apellido">
-							</div>							
-							<input class="[ form-control ]" id="ejemplo_celular_1" placeholder="Celular">
-							<input class="[ form-control ]" id="ejemplo_password_1"placeholder="Contraseña">
-						</div>
-					</form>
-					<div class="[ text-center ]">
-						<button class="[ btn ][ btn-light-hollow ]">ver platillo de hoy</button>
+		<div id="excelente" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+			<div class="[ modal-header ][ bg-light ]">
+				<img src="img/assets/logo.svg" class="[ color-primary ][ svg ]" alt="Dabba">
+			</div>
+			<div class="[ modal-body ]">
+				<h2>¡Excelente! :)</h2>
+				<p>Sí entregamos en tu zona, danos tus datos para continuar con el registro.</p>
+				<div class="[ text-center ]">
+					<button class="[ btn ][ btn-info ]">Facebook</button>
+					<button class="[ btn ][ btn-success ]">Google</button>
+				</div>				
+				<p>O con tu correo</p>
+				<form role="form">
+				  	<div class="[ form-group ]">
+				  		<div class="[ width--input  ]">
+				  			<input class="form-control" id="ejemplo_nombre_1" placeholder="Nombre">
+				  		</div>
+						<div class="[ width--input  ]">
+							<input class="[ form-control ]" id="ejemplo_apellido_1" placeholder="Apellido">
+						</div>							
+						<input class="[ form-control ]" id="ejemplo_celular_1" placeholder="Celular">
+						<input class="[ form-control ]" id="ejemplo_password_1"placeholder="Contraseña">
 					</div>
-					<div class="[ text-right ]">
-						<button class="[ close-modal ]" data-dismiss="modal" aria-hidden="true">X</button>	
-					</div>		
+				</form>
+				<div class="[ text-center ]">
+					<button class="[ btn ][ btn-light-hollow ]">ver platillo de hoy</button>
 				</div>
-			</section>
+				<div class="[ text-right ]">
+					<button class="[ close ]" data-dismiss="modal" aria-hidden="true">X</button>
+				</div>
+			</div>				
 		</div><!-- End of Modal-->
 
 		<!-- Modal "comida-gratis"-->
-		<div id="comida-gratis" class="[ modal ][ fade ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-			<section  class="[ bg-color__screen ]">
-				<div class="[ container ]">
-					<h2>¡Quiero mi comida gratis!</h2>
-					<p>Gracias por dejarnos tus datos, esperámos verte muy pronto.</p>
-					<form role="form">
-					  	<div class="[ form-group ]">
-							<input class="[ form-control ]" placeholder="Correo electrónico">
-							<input class="[ form-control ]" placeholder="Colonia">
-						</div>
-					</form>
-					<div class="[ text-center ]">
-						<button class="[ btn ][ btn-light-hollow ]">enviar</button>
+		<div id="comida-gratis" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">	
+			<div class="[ modal-header ][ bg-light ]">
+				<img src="img/assets/logo.svg" class="[ color-primary ]" alt="Dabba">
+			</div>
+			<div class="[ modal-body ]">
+				<h2>¡Quiero mi comida gratis!</h2>
+				<p>Gracias por dejarnos tus datos, esperámos verte muy pronto.</p>
+				<form role="form">
+				  	<div class="[ form-group ]">
+						<input class="[ form-control ]" placeholder="Correo electrónico">
+						<input class="[ form-control ]" placeholder="Colonia">
 					</div>
-					<div class="[ text-right ]">
-						<button class="[ close-modal ]" data-dismiss="modal" aria-hidden="true">X</button>	
-					</div>		
+				</form>
+				<div class="[ text-center ]">
+					<button class="[ btn ][ btn-light-hollow ]">enviar</button>
+				</div>
+				<div class="[ text-right ]">
+					<button class="[ close ]" data-dismiss="modal" aria-hidden="true">X</button>	
 				</div>		
-			</section>
+			</div>		
 		</div><!-- End of Modal-->
 
 		<!-- Modal "comienza"-->
-		<div id="comienza" class="[ modal ][ fade ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-			<section  class="[ bg-color__screen ]">
-				<div class="[ container ]">
-					<h2>Comienza</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore odit temporibus consequuntur voluptates, repellendus cumque deleniti porro.</p>
-					<form role="[ form ]">
-					  	<div class="[ form-group ]">
-							<input class="[ form-control ]" placeholder="Correo electrónico">
-							<select class="[ form-control ]"><div class="[ glyphicon ][ glyphicon-chevron-down ]"></div>
-								<option>Colonia </option>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
-						</div>
-					</form>
-					<div class="[ text-center ]">
-						<button class="[ btn ][ btn-light-hollow ]">siguiente</button>
-					<div class="[ text-center ]">
-					<div class="[ text-right ]">
-						<button class="[ close-modal ]" data-dismiss="modal" aria-hidden="true">X</button>	
-					</div>		
+		<div id="comienza" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">	
+			<div class="[ modal-header ][ bg-light ]">
+				<img src="img/assets/logo.svg" class="[ color-primary ]" alt="Dabba">
+			</div>
+			<div class="[ modal-body ]">
+				<h2>Comienza</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore odit temporibus consequuntur voluptates, repellendus cumque deleniti porro.</p>
+				<form role="[ form ]">
+				  	<div class="[ form-group ]">
+						<input class="[ form-control ]" placeholder="Correo electrónico">
+						<select class="[ form-control ]"><div class="[ glyphicon ][ glyphicon-chevron-down ]"></div>
+							<option>Colonia </option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+				</form>
+				<div class="[ text-center ]">
+					<button class="[ btn ][ btn-light-hollow ]">siguiente</button>
+				</div>
+				<div class="[ text-right ]">
+					<button class="[ close ]" data-dismiss="modal" aria-hidden="true">X</button>
 				</div>		
-			</section>
+			</div>		
 		</div><!-- End of Modal-->
 			        
 		<!-- Modal "Lo sentimos"-->
-		<div id="error" class="[ modal ][ fade ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">	
-			<section  class="[ bg-color__screen ]">
-				<div class="[ container ]">
-					<h2>Lo sentimos :(</h2>
-					<p>Por ahora no entregamos en tu área, entregamos en</p>
+		<div id="error" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+			<div class="[ modal-header ][ bg-light ]">
+				<img src="img/assets/logo.svg" class="[ color-primary ]" alt="Dabba">
+			</div>
+			<div class="[ modal-body ]">
+				<h2>Lo sentimos :(</h2>
+				<p>Por ahora no entregamos en tu área, entregamos en</p>
+			</div>
+			<div class="[ embed-responsive ]">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3762.462624634608!2d-99.2077281!3d19.435611!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1445293875693" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>	
+			<div class="[ container ]">			
+				<p>Cuando entreguémos en tu colonia recibirás un correo electrónico con un cupón para una comida gratis.</p>
+				<div class="[ text-center ]">
+					<button class="[ btn ][ btn-light-hollow ]">ok</button>
 				</div>
-				<div class="[ embed-responsive ]">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3762.462624634608!2d-99.2077281!3d19.435611!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1445293875693" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>	
-				<div class="[ container ]">			
-					<p>Cuando entreguémos en tu colonia recibirás un correo electrónico con un cupón para una comida gratis.</p>
-					<div class="[ text-center ]">
-						<button class="[ btn ][ btn-light-hollow ]">ok</button>
-					</div>
-					<div class="[ text-right ]">
-						<button class="[ close-modal ]" data-dismiss="modal" aria-hidden="true">X</button>	
-					</div>		
+				<div class="[ text-right ]">
+					<button class="[ close ]" data-dismiss="modal" aria-hidden="true">X</button>	
 				</div>		
-			</section>
+			</div>
 		</div><!-- End of Modal-->
 	</footer>
 
@@ -226,7 +231,10 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>
-	<script> $('#send_btn').popover({content: 'Thank You'},'click'); </script>
+	<script>
+		$('#send_btn').popover({content: 'Thank You'},'click');
+
+	</script>
 
 	</body>
 </html>

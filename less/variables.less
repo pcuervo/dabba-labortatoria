@@ -9,6 +9,7 @@
 
 @primary: 					#F05475;
 @secondary: 				#673695;
+@tertiary:					#0D1016;
 
 @light:						#FFFFFF;
 
@@ -153,6 +154,8 @@
 //## For each of Bootstrap's buttons, define text, background and border color.
 
 @btn-font-weight:                normal;
+
+@btn-border-light: 				1px solid @light;	
 
 @btn-default-color:              #333;
 @btn-default-bg:                 #fff;
@@ -832,7 +835,7 @@
 //##
 
 @close-font-weight:           bold;
-@close-color:                 #000;
+@close-color:                 @light;
 @close-text-shadow:           0 1px 0 #fff;
 
 
@@ -868,6 +871,7 @@
 @blockquote-small-color:      @gray-light;
 //** Blockquote font size
 @blockquote-font-size:        (@font-size-base * 1.25);
+
 //** Blockquote border color
 @blockquote-border-color:     @gray-lighter;
 //** Page header border color

@@ -1,15 +1,7 @@
 //
 // Utility classes
 // --------------------------------------------------
-.bg-gradient{
-  background:linear-gradient( @primary, @secondary );
-}
 
-
-//Bac
-.bg-primary{
-  background-color: @primary;
-}
 
 // Floats
 // -------------------------
@@ -62,5 +54,24 @@
   position: fixed;
 }
 
+
+// Backgrounds
+// -------------------------
+
+.bg-gradient{ background:linear-gradient( @primary, @secondary ); }
+.bg-primary{ background-color: @primary; }
+.bg-light{ background-color: @light; }
+
+// Colors
+// -------------------------
+
+.color-light{ color: @light; }
+.color-primary{ color: @primary; }
+
 // small padding
 .padding{ padding: @padding-base-vertical @padding-base-horizontal; }
+
+.bg-tertiary{
+  background-color: @tertiary;
+  color: @light;
+}
