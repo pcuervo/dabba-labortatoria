@@ -1169,7 +1169,7 @@ p {
   color: #ffffff;
   text-align: center;
   padding: 5px;
-  margin-top: 85px;
+  margin-top: 20px;
 }
 h1,
 h2,
@@ -1545,6 +1545,9 @@ address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857143;
+}
+.underlined {
+  text-decoration: underline;
 }
 code,
 kbd,
@@ -3560,7 +3563,6 @@ input[type="button"].btn-block {
 .bg-primary .btn {
   margin-top: 20px;
   margin-bottom: 10px;
-  background-color: #f05475;
 }
 .btn-primary-hollow {
   color: #f05475;
@@ -5889,7 +5891,7 @@ button.list-group-item-danger.active:focus {
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
 }
-.bg-color__screen .embed-responsive {
+.bg-primary .embed-responsive {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -5948,6 +5950,7 @@ button.list-group-item-danger.active:focus {
   line-height: 1;
   color: #ffffff;
   text-shadow: 0 1px 0 #ffffff;
+  margin-top: 30px;
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
@@ -6671,18 +6674,30 @@ button.close {
 .bg-light {
   background-color: #ffffff;
 }
+.bg-tertiary {
+  background-color: #0d1016;
+  color: #ffffff;
+}
 .color-light {
   color: #ffffff;
 }
 .color-primary {
   color: #f05475;
 }
+.color-quaternary {
+  color: #e24b44;
+}
+.color-gray {
+  color: #555555;
+}
 .padding {
   padding: 6px 12px;
 }
-.bg-tertiary {
-  background-color: #0d1016;
-  color: #ffffff;
+.padding--large {
+  padding: 10px 16px;
+}
+.margin-small {
+  margin: 10px;
 }
 @-ms-viewport {
   width: device-width;

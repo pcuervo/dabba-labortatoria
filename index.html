@@ -4,8 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
-		<!--  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.css">-->
+		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.css">
+
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<header class=" [ bg-primary ] [ text-center ] ">
@@ -101,14 +103,14 @@
 		<!-- Modal "contacto"-->
 		<div id="contacto" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >			
 			<div class="[ modal-header ][ bg-light ]">
-				<img src="img/assets/logo.svg" class="[ color-primary ]" alt="Dabba">
+				<img src="img/assets/logo.svg" class="[ color-primary ][ img-header-logo ]" alt="Dabba">
 			</div>
 			<div class="[ modal-body ]">
 				<h2>Contáctanos</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae vero iure laborum placeat non alias distinctio enim, qui rem quod optio voluptas officiis eius quidem reprehenderit explicabo. Et, quasi, ipsa.</p>
-				<p>Lorem ipsum dolor sit amet <a href="mailto:hola@dabba.mx">hola@dabba.mx</a> consectetur adipisicing elit <a href="tel:5555555555">(55)5555-5555</a>.</p>
+				<p>Lorem ipsum dolor sit amet <a href="mailto:hola@dabba.mx" class="[ underlined ][ color-light ]">hola@dabba.mx</a> consectetur adipisicing elit <a href="tel:5555555555" class="[ underlined ][ color-light ]">(55)5555-5555</a>.</p>
 				<div class="[ text-center ]">
-					<a href="mailto:hola@dabba.mx" class="[ btn btn-light-hollow ]">mándanos un correo</a>
+					<a href="mailto:hola@dabba.mx" class="[ btn btn-light-hollow ][ color-light ]">mándanos un correo</a>
 				</div>	
 				<div class="text-right">
 					<button class="[ close ]" data-dismiss="modal" aria-hidden="true">x</button>	
@@ -119,22 +121,22 @@
 		<!-- Modal "excelente"-->
 		<div id="excelente" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
 			<div class="[ modal-header ][ bg-light ]">
-				<img src="img/assets/logo.svg" class="[ color-primary ][ svg ]" alt="Dabba">
+				<img src="img/assets/logo.svg" class="[ color-primary ][ img-header-logo ]" alt="Dabba">
 			</div>
 			<div class="[ modal-body ]">
 				<h2>¡Excelente! :)</h2>
 				<p>Sí entregamos en tu zona, danos tus datos para continuar con el registro.</p>
 				<div class="[ text-center ]">
-					<button class="[ btn ][ btn-info ]">Facebook</button>
-					<button class="[ btn ][ btn-success ]">Google</button>
+					<button class="[ btn btn-info ][ margin-small ]"><i class="[ fa fa-facebook ]"></i> Facebook</button>
+					<button class="[ btn success ][ color-quaternary ][ margin-small ]"><i class="[ fa fa-google ]"></i> Google</button>
 				</div>				
 				<p>O con tu correo</p>
 				<form role="form">
 				  	<div class="[ form-group ]">
-				  		<div class="[ width--input  ]">
+				  		<div class="[ ]">
 				  			<input class="form-control" id="ejemplo_nombre_1" placeholder="Nombre">
 				  		</div>
-						<div class="[ width--input  ]">
+						<div class="[ ]">
 							<input class="[ form-control ]" id="ejemplo_apellido_1" placeholder="Apellido">
 						</div>							
 						<input class="[ form-control ]" id="ejemplo_celular_1" placeholder="Celular">
@@ -153,7 +155,7 @@
 		<!-- Modal "comida-gratis"-->
 		<div id="comida-gratis" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">	
 			<div class="[ modal-header ][ bg-light ]">
-				<img src="img/assets/logo.svg" class="[ color-primary ]" alt="Dabba">
+				<img src="img/assets/logo.svg" class="[ color-primary ][ img-header-logo ]" alt="Dabba">
 			</div>
 			<div class="[ modal-body ]">
 				<h2>¡Quiero mi comida gratis!</h2>
@@ -176,7 +178,7 @@
 		<!-- Modal "comienza"-->
 		<div id="comienza" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">	
 			<div class="[ modal-header ][ bg-light ]">
-				<img src="img/assets/logo.svg" class="[ color-primary ]" alt="Dabba">
+				<img src="img/assets/logo.svg" class="[ color-primary ][ img-header-logo ]" alt="Dabba">
 			</div>
 			<div class="[ modal-body ]">
 				<h2>Comienza</h2>
@@ -205,8 +207,8 @@
 			        
 		<!-- Modal "Lo sentimos"-->
 		<div id="error" class="[ modal ][ fade ][ bg-primary ][ text-center ]" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-			<div class="[ modal-header ][ bg-light ]">
-				<img src="img/assets/logo.svg" class="[ color-primary ]" alt="Dabba">
+			<div class="[ modal-header ][ bg-primary ]">
+				<img src="img/assets/logo.svg" class="[ color-light ][ img-header-logo ]" alt="Dabba">
 			</div>
 			<div class="[ modal-body ]">
 				<h2>Lo sentimos :(</h2>

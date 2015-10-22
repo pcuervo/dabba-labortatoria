@@ -61,17 +61,24 @@
 .bg-gradient{ background:linear-gradient( @primary, @secondary ); }
 .bg-primary{ background-color: @primary; }
 .bg-light{ background-color: @light; }
-
+.bg-tertiary{
+  background-color: @tertiary;
+  color: @light;
+}
 // Colors
 // -------------------------
 
 .color-light{ color: @light; }
 .color-primary{ color: @primary; }
+.color-quaternary{ color: @quaternary }
+.color-gray{color: @gray}
 
-// small padding
+// padding
 .padding{ padding: @padding-base-vertical @padding-base-horizontal; }
+.padding--large{ padding: @padding-large-vertical @padding-large-horizontal; }
 
-.bg-tertiary{
-  background-color: @tertiary;
-  color: @light;
-}
+// Margin
+// -------------------------
+
+.margin-small{ margin: @margin-small; }
+
