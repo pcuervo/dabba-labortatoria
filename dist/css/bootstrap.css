@@ -2532,6 +2532,7 @@ table th[class*="col-"] {
   border-left: #f05475;
   box-shadow: none;
   border-radius: 0px;
+  padding: 0px;
 }
 fieldset {
   padding: 0;
@@ -5988,6 +5989,9 @@ button.close {
     width: 20%;
   }
 }
+.img-icon {
+  width: 10vw;
+}
 .modal {
   width: 100vw;
   height: 100vh;
@@ -6700,6 +6704,12 @@ button.close {
 }
 .margin-small {
   margin: 10px;
+}
+.width-medium {
+  width: 48%;
+}
+.display-inline {
+  display: inline;
 }
 @-ms-viewport {
   width: device-width;
