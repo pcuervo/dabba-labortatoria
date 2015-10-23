@@ -6734,7 +6734,7 @@ button.close {
   border-color: #f05475;
   width: 150px;
 }
-.disabled {
+.opacity {
   opacity: .5;
 }
 .width-medium {
