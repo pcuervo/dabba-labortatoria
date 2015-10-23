@@ -2523,13 +2523,13 @@ table th[class*="col-"] {
   border-radius: 0px;
   padding: 0px;
 }
-.bg-primary select {
-  padding: 0px;
+select {
+  color: red;
 }
 .bg-primary .form-control {
   color: #ffffff;
   background-color: #f05475;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
   border-top: #f05475;
   border-right: #f05475;
   border-left: #f05475;
@@ -5995,10 +5995,6 @@ button.close {
 .img-icon {
   width: 10vw;
 }
-.modal {
-  width: 100vw;
-  height: 100vh;
-}
 .modal-open {
   overflow: hidden;
 }
@@ -6040,15 +6036,10 @@ button.close {
   margin: 10px;
 }
 .modal-content {
+  width: 100vw;
+  height: 100vh;
   position: relative;
   background-color: #ffffff;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  background-clip: padding-box;
-  outline: 0;
 }
 .modal-backdrop {
   position: fixed;

@@ -7,10 +7,7 @@
 // .modal-dialog    - positioning shell for the actual modal
 // .modal-content   - actual modal w/ bg and corners and shit
 
-.modal {
-  width: 100vw;
-  height: 100vh;
-}
+
 
 // Kill the scroll on the body
 .modal-open {
@@ -18,7 +15,7 @@
 }
 
 // Container that the modal scrolls within
-.modal {
+.modal {  
   display: none;
   overflow: hidden;
   position: fixed;
@@ -54,15 +51,10 @@
 
 // Actual modal
 .modal-content {
+  width: 100vw;
+  height: 100vh;
   position: relative;
   background-color: @modal-content-bg;
-  border: 1px solid @modal-content-fallback-border-color; //old browsers fallback (ie8 etc)
-  border: 1px solid @modal-content-border-color;
-  border-radius: @border-radius-large;
-  .box-shadow(0 3px 9px rgba(0,0,0,.5));
-  background-clip: padding-box;
-  // Remove focus outline from opened modal
-  outline: 0;
 }
 
 // Modal background
