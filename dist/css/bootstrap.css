@@ -6679,7 +6679,7 @@ button.close {
   background: linear-gradient(#f05475, #673695);
 }
 .bg-gradient-diagonal {
-  background: linear-gradient(-45% #673695, #f05475);
+  background: linear-gradient(-45deg, #673695, #f05475);
 }
 .bg-primary {
   background-color: #f05475;
