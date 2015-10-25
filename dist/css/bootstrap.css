@@ -2529,9 +2529,6 @@ table th[class*="col-"] {
   border-radius: 0px;
   padding: 0px;
 }
-select {
-  color: red;
-}
 .bg-primary .form-control {
   color: #ffffff;
   background-color: #f05475;
@@ -5967,10 +5964,9 @@ button.list-group-item-danger.active:focus {
   font-weight: bold;
   line-height: 1;
   color: #ffffff;
-  text-shadow: 0 1px 0 #ffffff;
   position: absolute;
   bottom: 10px;
-  left: 90%;
+  right: 10px;
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
@@ -6011,7 +6007,7 @@ button.close {
 }
 .modal {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: none;
   overflow: hidden;
   position: fixed;
@@ -6049,6 +6045,7 @@ button.close {
   margin: 10px;
 }
 .modal-content {
+  min-height: 100%;
   position: relative;
   background-color: #ffffff;
 }
@@ -6071,7 +6068,6 @@ button.close {
 }
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857143px;
 }
 .modal-header .close {
